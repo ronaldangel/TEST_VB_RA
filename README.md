@@ -1,6 +1,6 @@
-This project has the following architecture:
+La arquitectura de este proyecto es la siguinte:
 
-- in the root folder (my_lib) you can find
+- en el root folder (my_lib) encuentras:
 
 
 mongoid.yml - Configuration for mongo . TODO --> mover a un paquete de configuraciones
@@ -14,7 +14,7 @@ ruby call.rb in the my_lib folder
 
 - in the code folder (my_lib/my_lib)
 
-you can find delegates para cada metodo y la clase de MongoId para almacenar los resultados
+Encuentras delegates para cada metodo y la clase de MongoId para almacenar los resultados
 
 Aunque no se implementan interfaces y patrones por razones de tiempo la idea fue distribuir las clases en unidades de responsabilidad funcional (modulos)
 

@@ -1,3 +1,3 @@
 call file call.rb 
 
-ruby call.rn in the my_lib folder
+ruby call.rb in the my_lib folder

@@ -1,5 +1,7 @@
 require 'json'
 require 'mongoid'
+require_relative  'bunny'
+require 'hashie'
 
 =begin
 class that implements the action to save the responses in a Mongo DB 
@@ -15,18 +17,12 @@ creating a client using redditkit in this case only for my use (remember is only
 	def convertJson2Object(response_body, article_title)
 		 bunny = nil 
 		 begin  
+			
 			Mongoid.load!("mongoid.yml", :development)
-			puts response_body
-			
+		    
 
-			document = JSON.parse(response_body)
-			
-			objects = document['project'].map { |pr|
-
-				bunny = Bunny.new(bunny_video: pr['name']['reads']['reads'][0]['urls']['Part001']['default'],
+		    bunny = Bunny.new(bunny_video: response_body['project']['reads'][0]['urls']['Part001']['default'],
 				article_title: article_title )
-
-		    }
 
 		    bunny.save!
 		   

@@ -1,0 +1,5 @@
+{"project"=>
+  {"id"=>"7101AC33612CE506507A", "user"=>"30291", "status"=>"assignable", "fulfilmentType"=>"speedy", "title"=>"Pouring a rainbow", "language"=>"eng-us", "genderAndAge"=>"middleAgeMale", 
+  "script"=>{"Part001"=>"the last trend in our search engine is: \#{article_title} [with animosity] by Ronald Angel"}, 
+"serviceFee"=>0, "price"=>0, "currency"=>"usd", "remarks"=>"I want a really friendly voice, in the Part002 please be enfatic.", "lifetime"=>"86400", "assignmentDuration"=>"1604", "test"=>true, "created"=>1400439962, "units"=>"13", "genderAndAgeName"=>"Middle age (40-65) | Male", "languageName"=>"English - North American", "maxEntrants"=>false, "auditionScript"=>false, 
+"reads"=>[{"status"=>"futureRead", "urls"=>{"Part001"=>{"default"=>"http://voicebunny.s3.amazonaws.com/sandbox/low_test.mp3", "original"=>"http://voicebunny.s3.amazonaws.com/sandbox/test.wav"}}}], "auditions"=>false, "talendID"=>nil, "syncedRecording"=>true, "excludePrevious"=>false, "secret"=>0}, "timestamp"=>1400440080}

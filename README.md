@@ -4,13 +4,15 @@ La arquitectura de este proyecto es la siguinte:
 
 
 -mongoid.yml - Configuration for mongo . TODO --> mover a un paquete de configuraciones
--my_lib - file that implements a fake fachade to call the delegates methods (reddit, voice bunny and mongo)
+
+-my_lib - file that implements a fake fachade to call the delegates methods (reddit, voice bunny and mongo). TODO --> mover a un paquete de delegates
+
 -call.rb - is like a java main class to call the action:
 
 
-call file call.rb 
+* call file call.rb 
 
-ruby call.rb in the my_lib folder
+* ruby call.rb in the my_lib folder
 
 
 
